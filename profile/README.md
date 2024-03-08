@@ -2,7 +2,7 @@
 
 - [Homepage](https://www.tanagra.enterprises)
 - [Docs]()
-- [Wiki](.github/wiki)
-- [Roadmap](.github/projects?query=is%3Aopen)
-- [Support](.github/issues)
-- [Contact]()
+- [Wiki](wiki)
+- [Roadmap](projects?query=is%3Aopen)
+- [Support](issues)
+- [Contact](discussions)
