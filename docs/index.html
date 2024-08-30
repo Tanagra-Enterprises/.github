@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Darmok & Jalad</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanagra Enterprises</title>
     <style>
-      iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: #333;
+            padding: 10px 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #ff5722;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .hero h2 {
+            margin: 0 0 20px;
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background: #333;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+        }
     </style>
-  </head>
-  <body>
-      <iframe src="https://www.youtube.com/embed/3-wzr74d7TI?controls=0" frameborder="0" allow="" allowfullscreen></iframe>
-  </body>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Tanagra Enterprises</h1>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="#ff5722">
+                <circle cx="50" cy="50" r="40"/>
+                <rect x="30" y="30" width="40" height="40" fill="#121212"/>
+            </svg>
+            <h2>Shaka, when the walls fell? Not on our watch.</h2>
+            <p>We build software that speaks your language, like Darmok at Tanagra.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tanagra Enterprises PTE. LTD.</p>
+        </div>
+    </footer>
+</body>
 </html>
